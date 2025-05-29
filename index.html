@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2D Shooter with Mod Menu</title>
+<style>
+  /* CSS comes here - I will add it next */
+</style>
+</head>
+<body>
+<canvas id="gameCanvas" width="800" height="600" style="background:#111; display:block; margin:0 auto;"></canvas>
+
+<!-- Mod Menu Container -->
+<div id="modMenu" style="display:none;">
+  <div id="menuHeader">Mod Menu (Press 'O' to toggle)</div>
+  <button id="closeMenuBtn">Close Menu</button>
+
+  <section id="scoreSection">
+    Score: <span id="scoreDisplay">0</span>
+  </section>
+
+  <section id="hacksSection">
+    <h3>Hacks</h3>
+    <label><input type="checkbox" id="infiniteAmmo"> Infinite Ammo</label><br/>
+    <label><input type="checkbox" id="rapidFire"> Rapid Fire</label><br/>
+    <label><input type="checkbox" id="noRecoil"> No Recoil</label><br/>
+    <label><input type="checkbox" id="oneShotKill"> One Shot Kill</label><br/>
+    <label><input type="checkbox" id="autoAim"> Auto Aim</label><br/>
+    <label><input type="checkbox" id="speedHack"> Speed Hack</label><br/>
+    <label><input type="checkbox" id="damageMultiplier"> Damage Multiplier</label><br/>
+    <label><input type="checkbox" id="pointMultiplier"> Point Multiplier</label><br/>
+    <label><input type="checkbox" id="unlimitedHealth"> Unlimited Health</label><br/>
+    <!-- Add more hacks here -->
+  </section>
+
+  <section id="upgradeShotSection">
+    <h3>Upgrade Shot (Press 'F')</h3>
+    <div id="upgradeButtonsContainer">
+      <!-- 10 upgrade buttons appear here dynamically -->
+    </div>
+  </section>
+</div>
+
+<script>
+  /* JavaScript will come next */
+</script>
+</body>
+</html>
